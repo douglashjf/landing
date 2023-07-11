@@ -1,0 +1,26 @@
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.btn-medium {
+  background-color: white;
+  color:grey;
+  padding: 8px 24px;
+  border-radius: 16px;
+  border: 1px solid grey;
+}
+
+.btn-medium:hover {
+  text-decoration: underline;
+  color:white;
+  background-color: grey;
+}
